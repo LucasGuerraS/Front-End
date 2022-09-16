@@ -1,0 +1,31 @@
+.header {
+    background-color: transparent;
+    z-index: 1;
+    position: fixed;
+    transition: 0.3s ease-in;
+}
+
+.header.active {
+    background-color: #1a2946;
+}
+
+.nav {
+    color: #151515;
+}
+
+.nav.active {
+    color: #e5e5e5;
+}
+
+.button {
+    background-color: #1056e1;
+}
+
+.button.active {
+    background-color: #151515;
+    color: #1056e1
+}
+
+.button.active:hover {
+    background-color: #e5e5e5;
+}
